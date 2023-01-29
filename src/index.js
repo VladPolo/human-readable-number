@@ -1,7 +1,7 @@
 module.exports = function toReadable (number) {
     const
     h = ['hundred', 'two hundred', 'three hundred', 'four hundred', 'five hundred', 'six hundred', 'seven hundred', 'eight hundred', 'nine hundred'],
-    t = ['ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'],
+    t = ['', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'],
     o = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'],
     p = ['eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seveteen', 'eighteen', 'nineteen'];
 let str = number.toString(), out = '';
